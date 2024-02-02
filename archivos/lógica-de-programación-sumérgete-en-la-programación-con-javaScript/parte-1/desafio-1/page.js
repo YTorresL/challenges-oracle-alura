@@ -5,7 +5,7 @@ const FIN_DE_SEMANA = {
   domingo: "Domingo",
 };
 
-let preguntaUsuario = prompt("¿Que dia de la semana es?");
+//let preguntaUsuario = prompt("¿Que dia de la semana es?");
 
 if (
   preguntaUsuario === FIN_DE_SEMANA.sabado ||
@@ -15,5 +15,3 @@ if (
 } else {
   alert("¡Buena semana!");
 }
-
-preguntaUsuario;

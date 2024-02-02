@@ -1,0 +1,63 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+section div {
+  width: 32%;
+}
+
+@media (max-width: 768px) {
+  section div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  section div {
+    width: 100%;
+  }
+}
+
+section div ul a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+section svg {
+  height: 20px;
+  width: 20px;
+}
+
+section div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+section span {
+  color: #ffbb64;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.4rem;
+  width: 98%;
+}
+
+.flex-title {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ffbb64;
+  border-radius: 100%;
+  margin-top: 24px;
+}
