@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yalith Torres | Oracle + Alura Challenges</title>
-    <link href="../styles.css" rel="stylesheet" />
+    <link href="../../../../styles.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
-    <link href="../normalize.css" rel="stylesheet" />
+    <link href="../../../../normalize.css" rel="stylesheet" />
+    <script type="text/javascript" src="page.js"></script>
   </head>
   <body class="color color-white">
     <div
@@ -23,7 +24,7 @@
           <ul>
             <li><a href="/challenges-oracle-alura">Inicio</a></li>
             <li>
-              <a href="archivos/desafios.html"
+              <a href="../../../desafios.html"
                 ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                   <path
                     d="M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H288c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z"
@@ -36,59 +37,22 @@
       </header>
       <section>
         <div>
-          <div class="flex-title">
-            <div class="circle"></div>
-            <h2>
-              Lógica de programación: sumérgete en la programación con
-              javaScript
-            </h2>
-          </div>
-
-          <span>Parte 1</span>
-          <ul style="margin-top: 10px; margin-bottom: 10px">
-            <li>
-              <a
-                href="lógica-de-programación-sumérgete-en-la-programación-con-javaScript/parte-1/desafio-1/page.html"
-                ><div style="width: auto">
-                  <span class="circle-list">1</span>
-                </div>
-                ¡Buen Fin de Semana o Buena Semana!</a
-              >
-            </li>
-            <li>
-              <a
-                href="lógica-de-programación-sumérgete-en-la-programación-con-javaScript/parte-1/desafio-2/page.html"
-                ><div style="width: auto">
-                  <span class="circle-list">2</span>
-                </div>
-                Detector de Polaridad Numérica: ¡Positivo o Negativo!</a
-              >
-            </li>
-            <li>
-              <a
-                href="lógica-de-programación-sumérgete-en-la-programación-con-javaScript/parte-1/desafio-3/page.html"
-                ><div style="width: auto">
-                  <span class="circle-list">3</span>
-                </div>
-                Puntuación para la Victoria: ¡Supera los 100!</a
-              >
-            </li>
-          </ul>
+          <h1 style="width: 70%; margin: auto !important">
+            Puntuación para la Victoria: ¡Supera los 100!
+          </h1>
+          <p class="p" style="margin-top: 20px" id="datoPuntuacion">0</p>
         </div>
-        <div>
-          <div class="flex-title">
-            <div class="circle"></div>
-            <h2>Logica de programacion: explorar funciones listas</h2>
-          </div>
-        </div>
-        <div>
-          <div class="flex-title">
-            <div class="circle"></div>
-            <h2>Sprint 01: construye un encriptador texto con javascript</h2>
-          </div>
-        </div>
+        <form class="form">
+          <button
+            type="button"
+            class="btn btn--primary"
+            onclick="CambioDePuntuacion()"
+          >
+            Toca aquí
+          </button>
+        </form>
+        <p class="p" id="puntuacion"></p>
       </section>
-
       <footer>
         <p>
           Hecho por Yalith Torres
