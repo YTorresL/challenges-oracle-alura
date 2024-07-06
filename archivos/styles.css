@@ -71,3 +71,8 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
+a:hover {
+  color: #ffbb64 !important;
+  text-decoration: underline #ffbb64 1px !important;
+}

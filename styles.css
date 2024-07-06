@@ -194,7 +194,7 @@ footer svg {
   }
 
   40% {
-    border-radius: 100%;
+    border-radius: 80%;
   }
 
   60% {
@@ -203,11 +203,13 @@ footer svg {
 
   80% {
     border-radius: 60%;
+    opacity: 0.8;
   }
 
   100% {
     transform: translateY(-1000px) rotate(720deg);
     border-radius: 100%;
+    opacity: 0;
   }
 }
 
